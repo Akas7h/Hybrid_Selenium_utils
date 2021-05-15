@@ -9,6 +9,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.visionit.automation.pages.LandingPage;
+import com.visionit.automation.pages.LoginRegisteredUser;
 import com.visionit.automation.pages.RegisterPage;
 import com.visionit.automation.pages.SocialMediaPages;
 
@@ -20,6 +21,7 @@ public class BaseTest {
 	public LandingPage landingPage;
 	public RegisterPage registerPage;
 	public SocialMediaPages socialMediaPages;
+	public LoginRegisteredUser loginRegisteredUser;
 
 	@Parameters({"browser"})
 	@BeforeMethod
@@ -32,6 +34,7 @@ public class BaseTest {
 		landingPage = new LandingPage(driver);
 		registerPage = new RegisterPage(driver);
 		socialMediaPages = new SocialMediaPages(driver);
+		loginRegisteredUser = new LoginRegisteredUser(driver);
 
 	}
 
