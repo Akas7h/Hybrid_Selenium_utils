@@ -22,4 +22,4 @@ These are the items that would be covered in this framework. Green marked are co
 * Selenium Screenshot capturing - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Completed`
 * Execution of Framework Through Command Line - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Completed`
 * Cofiguration Through Properties File - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Completed`
-* Data Provider From TestNG Using Excel File - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Pending
+* Data Provider From TestNG Using Excel File - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Completed`
